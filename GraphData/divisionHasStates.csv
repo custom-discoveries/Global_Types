@@ -1,0 +1,52 @@
+from,to,division_name
+1,23000,New England Division
+1,9000,New England Division
+1,44000,New England Division
+1,50000,New England Division
+1,25000,New England Division
+1,33000,New England Division
+2,36000,Middle Atlantic Division
+2,34000,Middle Atlantic Division
+2,42000,Middle Atlantic Division
+3,39000,East North Central Division
+3,17000,East North Central Division
+3,18000,East North Central Division
+3,26000,East North Central Division
+3,55000,East North Central Division
+4,31000,West North Central Division
+4,29000,West North Central Division
+4,27000,West North Central Division
+4,20000,West North Central Division
+4,46000,West North Central Division
+4,38000,West North Central Division
+4,19000,West North Central Division
+5,45000,South Atlantic Division
+5,13000,South Atlantic Division
+5,11000,South Atlantic Division
+5,54000,South Atlantic Division
+5,12000,South Atlantic Division
+5,10000,South Atlantic Division
+5,24000,South Atlantic Division
+5,51000,South Atlantic Division
+5,37000,South Atlantic Division
+6,28000,East South Central Division
+6,47000,East South Central Division
+6,21000,East South Central Division
+6,1000,East South Central Division
+7,48000,West South Central Division
+7,40000,West South Central Division
+7,22000,West South Central Division
+7,5000,West South Central Division
+8,35000,Mountain Division
+8,49000,Mountain Division
+8,16000,Mountain Division
+8,56000,Mountain Division
+8,4000,Mountain Division
+8,8000,Mountain Division
+8,30000,Mountain Division
+8,32000,Mountain Division
+9,41000,Pacific Division
+9,2000,Pacific Division
+9,15000,Pacific Division
+9,6000,Pacific Division
+9,53000,Pacific Division

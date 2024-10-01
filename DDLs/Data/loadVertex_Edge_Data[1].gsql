@@ -1,0 +1,62 @@
+#
+# You need a Graph to load the Global Types!
+#
+set exit_on_error = "false"
+DROP JOB ALL
+Use GRAPH Global_Types_Graph
+#
+# Load VERTEX's, Make sure that "{" ends the line
+#
+CREATE LOADING JOB Global_Types_Graph_Vertex_Job FOR GRAPH Global_Types_Graph {
+DEFINE FILENAME DS0 = "./GraphData/Continent.csv";
+DEFINE FILENAME DS1 = "./GraphData/ISOCountries.csv";
+DEFINE FILENAME DS2 = "./GraphData/Region.csv";
+DEFINE FILENAME DS3 = "./GraphData/Division.csv";
+DEFINE FILENAME DS4 = "./GraphData/States.csv";
+DEFINE FILENAME DS5 = "./GraphData/Counties.csv";
+DEFINE FILENAME DS6 = "./GraphData/Cities.csv";
+
+#
+  LOAD DS0 TO VERTEX Continent VALUES ($0, $1) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS1 TO VERTEX Country VALUES ($0, $7, $2) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS2 TO VERTEX Region VALUES($0, $1, $2) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS3 TO VERTEX Division VALUES ($0, $1, $2) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS4 TO VERTEX State VALUES ($0, $1, $2) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS5 TO VERTEX County VALUES ($0, $1, $2) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+  LOAD DS6 TO VERTEX City VALUES ($0, $1) USING SEPARATOR=",", HEADER="true", QUOTE="double", EOL="\n";
+}
+#run the Vertex loading job
+RUN LOADING JOB Global_Types_Graph_Vertex_Job
+
+#drop the job, indicating the job is completed
+DROP JOB Global_Types_Graph_Vertex_Job
+DROP JOB Global_Types_Graph_Edge_Job
+#
+# Load the Edge Data for Global_Types_Graph
+#
+CREATE LOADING JOB Global_Types_Graph_Edge_Job FOR GRAPH Global_Types_Graph
+{
+DEFINE FILENAME DS1 = "./GraphData/ISOCountries.csv";
+DEFINE FILENAME DS2 = "./GraphData/countryHasUSRegion.csv";
+DEFINE FILENAME DS3 = "./GraphData/regionHasDivision.csv";
+DEFINE FILENAME DS4 = "./GraphData/divisionHasStates.csv";
+DEFINE FILENAME DS5 = "./GraphData/Counties.csv";
+DEFINE FILENAME DS6 = "./GraphData/citiesLocatedInCounties.csv";
+DEFINE FILENAME DS7 = "./GraphData/hasCapital.csv";
+#
+  LOAD DS1 TO EDGE hasCountry VALUES ($6, $0, $7) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS2 TO EDGE hasRegion VALUES($0, $1) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS3 TO EDGE hasDivision VALUES($0, $1) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS4 TO EDGE hasStates VALUES($0, $1) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS5 TO EDGE hasCounties VALUES($1, $0) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS6 TO EDGE hasCities VALUES($1, $0) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+  LOAD DS7 TO EDGE hasCapital VALUES($0, $1) USING SEPARATOR=",", HEADER="true", EOL="\n", QUOTE="double", VERTEX_MUST_EXIST="true";
+}
+#run the Edge loading job
+RUN LOADING JOB Global_Types_Graph_Edge_Job
+#drop the job, indicating the job is completed
+DROP JOB Global_Types_Graph_Edge_Job
+#
+# We completed loading all Global Types, we can now drop the GRAPH
+#
+DROP GRAPH Global_Types_Graph

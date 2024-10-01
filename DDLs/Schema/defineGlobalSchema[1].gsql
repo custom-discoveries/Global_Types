@@ -1,0 +1,53 @@
+#
+# *** Warning *** Be careful with sepcifying the asterisk '*' in the "CREATE GRAPH some_Graph_Name(*)" statement
+# If you use an asterisk '*' in the creation of the Graph, you will have to drop ALL graphs before
+# you can delete any Global types!
+#
+# First, Delete Global Edge Types
+#
+set exit_on_error = "false"
+DROP EDGE hasCountry
+DROP EDGE hasRegion
+DROP EDGE hasDivision
+DROP EDGE hasStates
+DROP EDGE hasCounties
+DROP EDGE hasCities
+DROP EDGE hasCapital
+#
+# Delete Global VERTEX Types
+#
+DROP VERTEX Continent
+DROP VERTEX Country
+DROP VERTEX Region
+DROP VERTEX Division
+DROP VERTEX State
+DROP VERTEX County
+DROP VERTEX City
+#
+# Define Geographic Global Types
+#
+Use GRAPH Global_Types_Graph
+DROP GRAPH Global_Types_Graph
+Use Global
+#
+  CREATE VERTEX Continent(PRIMARY_ID id STRING, name STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX Country(PRIMARY_ID id STRING, name STRING, country_code UINT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX Region(PRIMARY_ID id UINT, name STRING, region_id STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX Division(PRIMARY_ID id UINT, name STRING, division_id STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX State(PRIMARY_ID fips UINT, name STRING, alias STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX County(PRIMARY_ID fips UINT, state_fips UINT, name STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+  CREATE VERTEX City(PRIMARY_ID fips UINT, name STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
+#
+  CREATE UNDIRECTED EDGE hasCountry (FROM Continent, TO Country, country_name STRING)
+  CREATE UNDIRECTED EDGE hasRegion (FROM Country, TO Region)
+  CREATE UNDIRECTED EDGE hasDivision (FROM Region, TO Division)
+  CREATE UNDIRECTED EDGE hasStates(FROM Division, TO State)
+  CREATE UNDIRECTED EDGE hasCounties(FROM State, TO County)
+  CREATE UNDIRECTED EDGE hasCities(FROM County, TO City)
+  CREATE UNDIRECTED EDGE hasCapital(FROM State, TO City)
+#
+
+#
+# Create Global_Types_Graph and pass in all the Global Types
+#
+CREATE GRAPH Global_Types_Graph(*)

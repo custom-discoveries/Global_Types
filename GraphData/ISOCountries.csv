@@ -1,0 +1,265 @@
+﻿alpha-2,alpha-3,country-code,region-code,sub-region-code,intermediate-region-code,continent_id,country-name,sub-region,intermediate-region
+AF,AFG,4,142,34,,AS,Afghanistan,Southern Asia,
+AX,ALA,248,150,154,,EU,Åland Islands,Northern Europe,
+AL,ALB,8,150,39,,EU,Albania,Southern Europe,
+DZ,DZA,12,2,15,,AF,Algeria,Northern Africa,
+AS,ASM,16,9,61,,OC,American Samoa,Polynesia,
+AD,AND,20,150,39,,EU,Andorra,Southern Europe,
+AO,AGO,24,2,202,17,AF,Angola,Sub-Saharan Africa,Middle Africa
+AI,AIA,660,19,419,29,NA,Anguilla,Latin America and the Caribbean,Caribbean
+AQ,ATA,10,,,,AN,Antarctica,,
+AG,ATG,28,19,419,29,NA,Antigua and Barbuda,Latin America and the Caribbean,Caribbean
+AR,ARG,32,19,419,5,NA,Argentina,Latin America and the Caribbean,South America
+AM,ARM,51,142,145,,AS,Armenia,Western Asia,
+AW,ABW,533,19,419,29,NA,Aruba,Latin America and the Caribbean,Caribbean
+AU,AUS,36,9,53,,OC,Australia,Australia and New Zealand,
+AT,AUT,40,150,155,,EU,Austria,Western Europe,
+AZ,AZE,31,142,145,,AS,Azerbaijan,Western Asia,
+BS,BHS,44,19,419,29,NA,Bahamas,Latin America and the Caribbean,Caribbean
+BH,BHR,48,142,145,,AS,Bahrain,Western Asia,
+UM-81,UMI,581,,,,OC,Baker Island,,
+BD,BGD,50,142,34,,AS,Bangladesh,Southern Asia,
+BB,BRB,52,19,419,29,NA,Barbados,Latin America and the Caribbean,Caribbean
+BY,BLR,112,150,151,,EU,Belarus,Eastern Europe,
+BE,BEL,56,150,155,,EU,Belgium,Western Europe,
+BZ,BLZ,84,19,419,13,NA,Belize,Latin America and the Caribbean,Central America
+BJ,BEN,204,2,202,11,AF,Benin,Sub-Saharan Africa,Western Africa
+BM,BMU,60,19,21,,NA,Bermuda,Northern America,
+BT,BTN,64,142,34,,AS,Bhutan,Southern Asia,
+BO,BOL,68,19,419,5,SA,Bolivia,Latin America and the Caribbean,South America
+BQ,BES,535,19,419,29,NA,Bonaire,Latin America and the Caribbean,Caribbean
+BA,BIH,70,150,39,,EU,Bosnia and Herzegovina,Southern Europe,
+BW,BWA,72,2,202,18,AF,Botswana,Sub-Saharan Africa,Southern Africa
+BV,BVT,74,19,419,5,SA,Bouvet Island,Latin America and the Caribbean,South America
+BR,BRA,76,19,419,5,SA,Brazil,Latin America and the Caribbean,South America
+IO,IOT,86,2,202,14,AF,British Indian Ocean Territory,Sub-Saharan Africa,Eastern Africa
+BN,BRN,96,142,35,,AS,Brunei Darussalam,South-eastern Asia,
+BG,BGR,100,150,151,,EU,Bulgaria,Eastern Europe,
+BF,BFA,854,2,202,11,AF,Burkina Faso,Sub-Saharan Africa,Western Africa
+BI,BDI,108,2,202,14,AF,Burundi,Sub-Saharan Africa,Eastern Africa
+CV,CPV,132,2,202,11,AF,Cabo Verde,Sub-Saharan Africa,Western Africa
+KH,KHM,116,142,35,,AS,Cambodia,South-eastern Asia,
+CM,CMR,120,2,202,17,AF,Cameroon,Sub-Saharan Africa,Middle Africa
+CA,CAN,124,19,21,,NA,Canada,Northern America,
+CV,CPV,132,,,,AF,Cape Verde,Sub-Saharan Africa,
+KY,CYM,136,19,419,29,NA,Cayman Islands,Latin America and the Caribbean,Caribbean
+CF,CAF,140,2,202,17,AF,Central African Republic,Sub-Saharan Africa,Middle Africa
+TD,TCD,148,2,202,17,AF,Chad,Sub-Saharan Africa,Middle Africa
+CL,CHL,152,19,419,5,SA,Chile,Latin America and the Caribbean,South America
+CN,CHN,156,142,30,,AS,China,Eastern Asia,
+CX,CXR,162,9,53,,OC,Christmas Island,Australia and New Zealand,
+CC,CCK,166,9,53,,OC,Cocos (Keeling) Islands,Australia and New Zealand,
+CO,COL,170,19,419,5,SA,Colombia,Latin America and the Caribbean,South America
+KM,COM,174,2,202,14,AF,Comoros,Sub-Saharan Africa,Eastern Africa
+CG,COG,178,2,202,17,AF,Congo,Sub-Saharan Africa,Middle Africa
+CD,COD,180,2,202,17,AF,Democratic Republic of the Congo,Sub-Saharan Africa,Middle Africa
+CK,COK,184,9,61,,OC,Cook Islands,Polynesia,
+CR,CRI,188,19,419,13,NA,Costa Rica,Latin America and the Caribbean,Central America
+CI,CIV,384,2,202,11,AF,Côte d'Ivoire,Sub-Saharan Africa,Western Africa
+HR,HRV,191,150,39,,EU,Croatia,Southern Europe,
+CU,CUB,192,19,419,29,NA,Cuba,Latin America and the Caribbean,Caribbean
+CW,CUW,531,19,419,29,NA,Curaçao,Latin America and the Caribbean,Caribbean
+CY,CYP,196,142,145,,AS,Cyprus,Western Asia,
+CZ,CZE,203,150,151,,EU,Czechia,Eastern Europe,
+DK,DNK,208,150,154,,EU,Denmark,Northern Europe,
+DJ,DJI,262,2,202,14,AF,Djibouti,Sub-Saharan Africa,Eastern Africa
+DM,DMA,212,19,419,29,NA,Dominica,Latin America and the Caribbean,Caribbean
+DO,DOM,214,19,419,29,NA,Dominican Republic,Latin America and the Caribbean,Caribbean
+EC,ECU,218,19,419,5,SA,Ecuador,Latin America and the Caribbean,South America
+EG,EGY,818,2,15,,AF,Egypt,Northern Africa,
+SV,SLV,222,19,419,13,NA,El Salvador,Latin America and the Caribbean,Central America
+GQ,GNQ,226,2,202,17,AF,Equatorial Guinea,Sub-Saharan Africa,Middle Africa
+ER,ERI,232,2,202,14,AF,Eritrea,Sub-Saharan Africa,Eastern Africa
+EE,EST,233,150,154,,EU,Estonia,Northern Europe,
+SZ,SWZ,748,2,202,18,AF,Eswatini,Sub-Saharan Africa,Southern Africa
+ET,ETH,231,2,202,14,AF,Ethiopia,Sub-Saharan Africa,Eastern Africa
+FK,FLK,238,19,419,5,SA,Falkland Islands,Latin America and the Caribbean,South America
+FO,FRO,234,150,154,,EU,Faroe Islands,Northern Europe,
+FJ,FJI,242,9,54,,OC,Fiji,Melanesia,
+FI,FIN,246,150,154,,EU,Finland,Northern Europe,
+FR,FRA,250,150,155,,EU,France,Western Europe,
+GF,GUF,254,19,419,5,SA,French Guiana,Latin America and the Caribbean,South America
+PF,PYF,258,9,61,,OC,French Polynesia,Polynesia,
+TF,ATF,260,2,202,14,AF,French Southern Territories,Sub-Saharan Africa,Eastern Africa
+GA,GAB,266,2,202,17,AF,Gabon,Sub-Saharan Africa,Middle Africa
+GM,GMB,270,2,202,11,AF,Gambia,Sub-Saharan Africa,Western Africa
+GE,GEO,268,142,145,,AS,Georgia,Western Asia,
+DE,DEU,276,150,155,,EU,Germany,Western Europe,
+GH,GHA,288,2,202,11,AF,Ghana,Sub-Saharan Africa,Western Africa
+GI,GIB,292,150,39,,EU,Gibraltar,Southern Europe,
+GR,GRC,300,150,39,,EU,Greece,Southern Europe,
+GL,GRL,304,19,21,,NA,Greenland,Northern America,
+GD,GRD,308,19,419,29,NA,Grenada,Latin America and the Caribbean,Caribbean
+GP,GLP,312,19,419,29,NA,Guadeloupe,Latin America and the Caribbean,Caribbean
+GU,GUM,316,9,57,,OC,Guam,Micronesia,
+GT,GTM,320,19,419,13,NA,Guatemala,Latin America and the Caribbean,Central America
+GG,GGY,831,150,154,830,EU,Guernsey,Northern Europe,Channel Islands
+GN,GIN,324,2,202,11,AF,Guinea,Sub-Saharan Africa,Western Africa
+GW,GNB,624,2,202,11,AF,Guinea-Bissau,Sub-Saharan Africa,Western Africa
+GY,GUY,328,19,419,5,SA,Guyana,Latin America and the Caribbean,South America
+HT,HTI,332,19,419,29,NA,Haiti,Latin America and the Caribbean,Caribbean
+HM,HMD,334,9,53,,OC,Heard Island and McDonald Islands,Australia and New Zealand,
+VA,VAT,336,150,39,,EU,Holy See,Southern Europe,
+HN,HND,340,19,419,13,NA,Honduras,Latin America and the Caribbean,Central America
+HK,HKG,344,142,30,,AS,Hong Kong,Eastern Asia,
+UM-84,UMI,581,,,,OC,Howland Island,,
+HU,HUN,348,150,151,,EU,Hungary,Eastern Europe,
+IS,ISL,352,150,154,,EU,Iceland,Northern Europe,
+IN,IND,356,142,34,,AS,India,Southern Asia,
+ID,IDN,360,142,35,,AS,Indonesia,South-eastern Asia,
+IR,IRN,364,142,34,,AS,Iran,Southern Asia,
+IQ,IRQ,368,142,145,,AS,Iraq,Western Asia,
+IE,IRL,372,150,154,,EU,Ireland,Northern Europe,
+IM,IMN,833,150,154,,EU,Isle of Man,Northern Europe,
+IL,ISR,376,142,145,,AS,Israel,Western Asia,
+IT,ITA,380,150,39,,EU,Italy,Southern Europe,
+JM,JAM,388,19,419,29,NA,Jamaica,Latin America and the Caribbean,Caribbean
+JP,JPN,392,142,30,,AS,Japan,Eastern Asia,
+UM-86,UMI,581,,,,OC,Jarvis Island,,
+JE,JEY,832,150,154,830,EU,Jersey,Northern Europe,Channel Islands
+JT,JTN,396,,,,OC,Johnston Atoll,,
+UM-67,UMI,581,,,,OC,Johnston Atoll,,
+JO,JOR,400,142,145,,AS,Jordan,Western Asia,
+KZ,KAZ,398,142,143,,AS,Kazakhstan,Central Asia,
+KE,KEN,404,2,202,14,AF,Kenya,Sub-Saharan Africa,Eastern Africa
+UM-89,UMI,581,,,,OC,Kingman Reef,,
+KI,KIR,296,9,57,,OC,Kiribati,Micronesia,
+XK,XXK,383,,,,EU,Kosovo,Southeast Europe,
+KW,KWT,414,142,145,,AS,Kuwait,Western Asia,
+KG,KGZ,417,142,143,,AS,Kyrgyzstan,Central Asia,
+LA,LAO,418,142,35,,AS,Lao People's Democratic Republic,South-eastern Asia,
+LV,LVA,428,150,154,,EU,Latvia,Northern Europe,
+LB,LBN,422,142,145,,AS,Lebanon,Western Asia,
+LS,LSO,426,2,202,18,AF,Lesotho,Sub-Saharan Africa,Southern Africa
+LR,LBR,430,2,202,11,AF,Liberia,Sub-Saharan Africa,Western Africa
+LY,LBY,434,2,15,,AF,Libya,Northern Africa,
+LI,LIE,438,150,155,,EU,Liechtenstein,Western Europe,
+LT,LTU,440,150,154,,EU,Lithuania,Northern Europe,
+LU,LUX,442,150,155,,EU,Luxembourg,Western Europe,
+MO,MAC,446,142,30,,AS,Macao,Eastern Asia,
+MK,MKD,807,150,39,,EU,Macedonia,Southern Europe,
+MG,MDG,450,2,202,14,AF,Madagascar,Sub-Saharan Africa,Eastern Africa
+MW,MWI,454,2,202,14,AF,Malawi,Sub-Saharan Africa,Eastern Africa
+MY,MYS,458,142,35,,AS,Malaysia,South-eastern Asia,
+MV,MDV,462,142,34,,AS,Maldives,Southern Asia,
+ML,MLI,466,2,202,11,AF,Mali,Sub-Saharan Africa,Western Africa
+MT,MLT,470,150,39,,EU,Malta,Southern Europe,
+MH,MHL,584,9,57,,OC,Marshall Islands,Micronesia,
+MQ,MTQ,474,19,419,29,NA,Martinique,Latin America and the Caribbean,Caribbean
+MR,MRT,478,2,202,11,AF,Mauritania,Sub-Saharan Africa,Western Africa
+MU,MUS,480,2,202,14,AF,Mauritius,Sub-Saharan Africa,Eastern Africa
+YT,MYT,175,2,202,14,AF,Mayotte,Sub-Saharan Africa,Eastern Africa
+MX,MEX,484,19,419,13,NA,Mexico,Latin America and the Caribbean,Central America
+FM,FSM,583,9,57,,OC,Micronesia (Federated States of),Micronesia,
+MI,MID,488,,,,OC,Midway Islands,,
+UM-71,UMI,581,,,,OC,Midway Islands,,
+MD,MDA,498,150,151,,EU,Moldova,Eastern Europe,
+MC,MCO,492,150,155,,EU,Monaco,Western Europe,
+MN,MNG,496,142,30,,AS,Mongolia,Eastern Asia,
+ME,MNE,499,150,39,,EU,Montenegro,Southern Europe,
+MS,MSR,500,19,419,29,NA,Montserrat,Latin America and the Caribbean,Caribbean
+MA,MAR,504,2,15,,AF,Morocco,Northern Africa,
+MZ,MOZ,508,2,202,14,AF,Mozambique,Sub-Saharan Africa,Eastern Africa
+MM,MMR,104,142,35,,AS,Myanmar,South-eastern Asia,
+NA,NAM,516,2,202,18,AF,Namibia,Sub-Saharan Africa,Southern Africa
+NR,NRU,520,9,57,,OC,Nauru,Micronesia,
+UM-76,UMI,581,,,,OC,Navassa Island,,
+NP,NPL,524,142,34,,AS,Nepal,Southern Asia,
+NL,NLD,528,150,155,,EU,Netherlands,Western Europe,
+AN,ANT,,,,,NA,Netherlands Antilles,Latin America and the Caribbean,
+NC,NCL,540,9,54,,OC,New Caledonia,Melanesia,
+NZ,NZL,554,9,53,,OC,New Zealand,Australia and New Zealand,
+NI,NIC,558,19,419,13,NA,Nicaragua,Latin America and the Caribbean,Central America
+NE,NER,562,2,202,11,AF,Niger,Sub-Saharan Africa,Western Africa
+NG,NGA,566,2,202,11,AF,Nigeria,Sub-Saharan Africa,Western Africa
+NU,NIU,570,9,61,,OC,Niue,Polynesia,
+NF,NFK,574,9,53,,OC,Norfolk Island,Australia and New Zealand,
+KP,PRK,408,142,30,,AS,North Korea,Eastern Asia,
+MP,MNP,580,9,57,,OC,Northern Mariana Islands,Micronesia,
+NO,NOR,578,150,154,,EU,Norway,Northern Europe,
+OM,OMN,512,142,145,,AS,Oman,Western Asia,
+PK,PAK,586,142,34,,AS,Pakistan,Southern Asia,
+PW,PLW,585,9,57,,OC,Palau,Micronesia,
+PS,PSE,275,142,145,,AS,Palestine,Western Asia,
+UM-95,UMI,581,,,,OC,Palmyra Atoll,,
+PA,PAN,591,19,419,13,NA,Panama,Latin America and the Caribbean,Central America
+PG,PNG,598,9,54,,OC,Papua New Guinea,Melanesia,
+PY,PRY,600,19,419,5,SA,Paraguay,Latin America and the Caribbean,South America
+PE,PER,604,19,419,5,SA,Peru,Latin America and the Caribbean,South America
+PH,PHL,608,142,35,,AS,Philippines,South-eastern Asia,
+PN,PCN,612,9,61,,OC,Pitcairn,Polynesia,
+PL,POL,616,150,151,,EU,Poland,Eastern Europe,
+PT,PRT,620,150,39,,EU,Portugal,Southern Europe,
+PR,PRI,630,19,419,29,NA,Puerto Rico,Latin America and the Caribbean,Caribbean
+QA,QAT,634,142,145,,AS,Qatar,Western Asia,
+RE,REU,638,2,202,14,AF,Reunion,Sub-Saharan Africa,Eastern Africa
+RO,ROU,642,150,151,,EU,Romania,Eastern Europe,
+RU,RUS,643,150,151,,EU,Russia,Eastern Europe,
+RW,RWA,646,2,202,14,AF,Rwanda,Sub-Saharan Africa,Eastern Africa
+BL,BLM,652,19,419,29,NA,Saint Barth√©lemy,Latin America and the Caribbean,Caribbean
+SH,SHN,654,2,202,11,AF,Saint Helena Ascension and Tristan da Cunha,Sub-Saharan Africa,Western Africa
+KN,KNA,659,19,419,29,NA,Saint Kitts and Nevis,Latin America and the Caribbean,Caribbean
+LC,LCA,662,19,419,29,NA,Saint Lucia,Latin America and the Caribbean,Caribbean
+MF,MAF,663,19,419,29,NA,Saint Martin (French part),Latin America and the Caribbean,Caribbean
+PM,SPM,666,19,21,,SA,Saint Pierre and Miquelon,Northern America,
+VC,VCT,670,19,419,29,NA,Saint Vincent and the Grenadines,Latin America and the Caribbean,Caribbean
+WS,WSM,882,9,61,,OC,Samoa,Polynesia,
+SM,SMR,674,150,39,,EU,San Marino,Southern Europe,
+ST,STP,678,2,202,17,AF,Sao Tome and Principe,Sub-Saharan Africa,Middle Africa
+SA,SAU,682,142,145,,AS,Saudi Arabia,Western Asia,
+SN,SEN,686,2,202,11,AF,Senegal,Sub-Saharan Africa,Western Africa
+RS,SRB,688,150,39,,EU,Serbia,Southern Europe,
+SC,SYC,690,2,202,14,AF,Seychelles,Sub-Saharan Africa,Eastern Africa
+SL,SLE,694,2,202,11,AF,Sierra Leone,Sub-Saharan Africa,Western Africa
+SG,SGP,702,142,35,,AS,Singapore,South-eastern Asia,
+SX,SXM,534,19,419,29,NA,Sint Maarten (Dutch part),Latin America and the Caribbean,Caribbean
+SK,SVK,703,150,151,,EU,Slovakia,Eastern Europe,
+SI,SVN,705,150,39,,EU,Slovenia,Southern Europe,
+SB,SLB,90,9,54,,OC,Solomon Islands,Melanesia,
+SO,SOM,706,2,202,14,AF,Somalia,Sub-Saharan Africa,Eastern Africa
+ZA,ZAF,710,2,202,18,AF,South Africa,Sub-Saharan Africa,Southern Africa
+GS,SGS,239,19,419,5,SA,South Georgia and the South Sandwich Islands,Latin America and the Caribbean,South America
+KR,KOR,410,142,30,,AS,South Korea,Eastern Asia,
+SS,SSD,728,2,202,14,AF,South Sudan,Sub-Saharan Africa,Eastern Africa
+ES,ESP,724,150,39,,EU,Spain,Southern Europe,
+LK,LKA,144,142,34,,AS,Sri Lanka,Southern Asia,
+SD,SDN,729,2,15,,AF,Sudan,Northern Africa,
+SR,SUR,740,19,419,5,SA,Suriname,Latin America and the Caribbean,South America
+SJ,SJM,744,150,154,,EU,Svalbard and Jan Mayen,Northern Europe,
+SE,SWE,752,150,154,,EU,Sweden,Northern Europe,
+CH,CHE,756,150,155,,EU,Switzerland,Western Europe,
+SY,SYR,760,142,145,,AS,Syria,Western Asia,
+TW,TWN,158,142,30,,AS,Taiwan,Eastern Asia,
+TJ,TJK,762,142,143,,AS,Tajikistan,Central Asia,
+TZ,TZA,834,2,202,14,AF,Tanzania,Sub-Saharan Africa,Eastern Africa
+TH,THA,764,142,35,,AS,Thailand,South-eastern Asia,
+TL,TLS,626,142,35,,AS,Timor-Leste,South-eastern Asia,
+TG,TGO,768,2,202,11,AF,Togo,Sub-Saharan Africa,Western Africa
+TK,TKL,772,9,61,,OC,Tokelau,Polynesia,
+TO,TON,776,9,61,,OC,Tonga,Polynesia,
+TT,TTO,780,19,419,29,NA,Trinidad and Tobago,Latin America and the Caribbean,Caribbean
+TN,TUN,788,2,15,,AF,Tunisia,Northern Africa,
+TR,TUR,792,142,145,,AS,Turkey,Western Asia,
+TM,TKM,795,142,143,,AS,Turkmenistan,Central Asia,
+TC,TCA,796,19,419,29,NA,Turks and Caicos Islands,Latin America and the Caribbean,Caribbean
+TV,TUV,798,9,61,,OC,Tuvalu,Polynesia,
+UG,UGA,800,2,202,14,AF,Uganda,Sub-Saharan Africa,Eastern Africa
+UA,UKR,804,150,151,,EU,Ukraine,Eastern Europe,
+AE,ARE,784,142,145,,AS,United Arab Emirates,Western Asia,
+GB,GBR,826,150,154,,EU,United Kingdom,Northern Europe,
+US,USA,840,19,21,,NA,United States,Northern America,
+UM,UMI,581,9,57,,OC,United States Minor Outlying Islands,Micronesia,
+UY,URY,858,19,419,5,SA,Uruguay,Latin America and the Caribbean,South America
+UZ,UZB,860,142,143,,AS,Uzbekistan,Central Asia,
+VU,VUT,548,9,54,,OC,Vanuatu,Melanesia,
+VE,VEN,862,19,419,5,SA,Venezuela,Latin America and the Caribbean,South America
+VN,VNM,704,142,35,,AS,Vietnam,South-eastern Asia,
+VG,VGB,92,19,419,29,NA,Virgin Islands (British),Latin America and the Caribbean,Caribbean
+VI,VIR,850,19,419,29,NA,Virgin Islands (U.S.),Latin America and the Caribbean,Caribbean
+UM-79,UMI,581,,,,OC,Wake Island,,
+WK,WAK,872,,,,OC,Wake Island,,
+WF,WLF,876,9,61,,OC,Wallis and Futuna,Polynesia,
+EH,ESH,732,2,15,,AF,Western Sahara,Northern Africa,
+YE,YEM,887,142,145,,AS,Yemen,Western Asia,
+ZM,ZMB,894,2,202,14,AF,Zambia,Sub-Saharan Africa,Eastern Africa
+ZW,ZWE,716,2,202,14,AF,Zimbabwe,Sub-Saharan Africa,Eastern Africa

@@ -1,0 +1,9 @@
+.venv/*
+.DS_Store
+.vscode/*
+src/__pycache__/*
+DDLs/*/*.bak
+Downloads/*
+remoteAdminConfig.txt
+localAdminConfig.txt
+Outputs
