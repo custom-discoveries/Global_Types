@@ -5,7 +5,7 @@ set exit_on_error = "false"
 DROP JOB ALL
 Use GRAPH Global_Types_Graph
 #
-# Load VERTEX's, Make sure that "{" ends the line
+# Load VERTEX's
 #
 CREATE LOADING JOB Global_Types_Graph_Vertex_Job FOR GRAPH Global_Types_Graph {
 DEFINE FILENAME DS0 = "./GraphData/Continent.csv";
@@ -57,6 +57,6 @@ RUN LOADING JOB Global_Types_Graph_Edge_Job
 #drop the job, indicating the job is completed
 DROP JOB Global_Types_Graph_Edge_Job
 #
-# We completed loading all Global Types, we can now drop the GRAPH
+# We completed loading all Data for the Global Types, we can now drop the GRAPH
 #
 DROP GRAPH Global_Types_Graph
