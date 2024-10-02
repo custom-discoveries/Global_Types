@@ -5,7 +5,7 @@
 - As an exmaple: The BCBSA graph incoproates the Global_Type Vertexs: Region, Division, State. While using Global_Type Edges: hasDivision, hasStates. This allows the BCBSA graph to use only what is needed and not incropate any additonal data burdencies.
 ## Install and Run
 ### Install
-To install this TigerGraph demo, clone this repository at a terminal command prompt: 
+To install this Global_Type demo, clone this repository at a terminal command prompt: 
 - \>git clone https://github.com/custom-discoveries/Global_Types.git
 ### Run Cheetah in Cloned Directory:
 -  cd Global_Types
