@@ -1,10 +1,10 @@
 primary_id,division_name,division_id
-1,New England Division,NE-11
-2,Middle Atlantic Division,NE-12
-3,East North Central Division,MW-21
-4,West North Central Division,MW-22
-5,South Atlantic Division,SR-31
-6,East South Central Division,SR-32
-7,West South Central Division,SR-33
-8,Mountain Division,WR-41
-9,Pacific Division,WR-42
+1,New England Division,NED
+2,Middle Atlantic Division,MAD
+3,East North Central Division,NCED
+4,West North Central Division,NCWD
+5,South Atlantic Division,SAD
+6,East South Central Division,SCED
+7,West South Central Division,SCWD
+8,Mountain Division,WRMD
+9,Pacific Division,WRPD

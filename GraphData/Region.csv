@@ -1,5 +1,5 @@
 primary_id,region_name,region_id
-1,Northeast Region,NE-10
-2,Midwest Region,MW-20
-3,South Region,SR-30
-4,West Region,WR-40
+1,Northeast Region,NER
+2,Midwest Region,MWR
+3,South Region,SR
+4,West Region,WR

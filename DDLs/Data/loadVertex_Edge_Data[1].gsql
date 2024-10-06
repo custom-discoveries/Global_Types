@@ -1,4 +1,7 @@
 #
+# Copyright (c) 2024, Custom Discoveries Inc.
+# All rights reserved.
+#
 # You need a Graph to load the Global Types!
 #
 set exit_on_error = "false"

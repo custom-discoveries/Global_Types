@@ -1,4 +1,7 @@
 #
+# Copyright (c) 2024, Custom Discoveries Inc.
+# All rights reserved.
+#
 # *** Warning *** Be careful with sepcifying the asterisk '*' in the "CREATE GRAPH some_Graph_Name(*)" statement
 # If you use an asterisk '*' in the creation of the Graph, you will have to drop ALL graphs before
 # you can delete any Global types!
@@ -34,7 +37,7 @@ Use Global
   CREATE VERTEX Continent(PRIMARY_ID id STRING, name STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
   #Color #45a6ee Icon: university
   CREATE VERTEX Country(PRIMARY_ID id STRING, name STRING, country_code UINT) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
-  #Color #0bad40 Icon: earth
+  #Color #b95dec Icon: earth
   CREATE VERTEX Region(PRIMARY_ID id UINT, name STRING, region_id STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
   #Color #ec0724 Icon: manager (2)
   CREATE VERTEX Division(PRIMARY_ID id UINT, name STRING, division_id STRING) WITH STATS="OUTDEGREE_BY_EDGETYPE", PRIMARY_ID_AS_ATTRIBUTE="true"
